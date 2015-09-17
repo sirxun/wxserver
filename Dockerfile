@@ -30,6 +30,7 @@ RUN rm /tmp/apache-maven-3.1.1-bin.tar.gz
 
 RUN mkdir -p /webapp
 ADD ./webapp /webapp
+ADD ./webapp /weixin-jssdk-master
 
 # 定义环境变量
 ENV TOMCAT_HOME /usr/local/tomcat
